@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Chivo&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width: 1700px)" href="style.css">
+    <title>testnid</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="connectUser.html"><img id="logo" class="logo" src="img/logo-niddou.png" alt="logo"></a>
+        <div id="entete">
+            <h1 class="head">Créations ecoresponsables</h1>
+
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a id="itemAccueil" href="accueil.html"></a></li>
+                    <li><a id="itemMaison" href="maison.htlm"></a></li>
+                    <li><a id="itemMaman" href="maman.html"></a></li>
+                    <li><a id="itemTissus" href="tissus.html"></a></li>
+                    <li><a id="itemBebe" href="bebe.html"></a></li>
+                    <li><a id="itemContact" href="contact.html"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h2>Administrer mes créations</h2>
+    <form class="insert" action=" " method="post">
+        <div id="insert">
+        <h4>Insérer un nouvel article</h4>
+       <div id="gestion">
+        <div>
+            <p>
+                <label for="title">Titre</label>
+                <input type="text" name="title" id="title" value="">
+            </p>
+            <p >
+                <label for="description">Description</label>
+                <textarea name="description" id="description" cols="50" rows="10 "value=""></textarea>
+            </p>
+            <p>
+                <label for="cat">Choisir une catégorie</label>
+                <select id="cat" name="cat">
+                    <option value="indispensable">L'indispensable</option>
+                    <option value="maman">Maman</option>
+                    <option value="bebe">Bébé</option>
+                    <option value="maison">Maison</option>
+                    <option value="personnaliser">Personnaliser</option>
+                </select>
+            </p>
+        </div>
+        <div>
+            <p>Insérer une image</p>
+             <p><input type="file" name="image"></p>
+        </div>
+        </div>
+        <p id="btnadmin">
+            <input class="btn " type="submit" value="Valider">
+        </p>
+        </div>
+    </form>
+  
+
+
+    <footer>
+        <a href="mentionsLegales.html">
+            <p>Mentions légales</p>
+        </a>
+        <a href="contact.html">
+            <p>Contact</p>
+        </a>
+        <a href="https://www.linkedin.com/in/rachel-lupano-31270a61/">
+            <p>Site créé par RL</p>
+        </a>
+    </footer>
+</body>
+
+</html>
+
